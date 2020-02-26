@@ -1,6 +1,17 @@
 # Ionic Date Picker Component
 
-This is a date picker component for your Ionic 4 app.
+Mirror of write2sv's repository ionic4-date-picker
+https://github.com/write2sv/ionic4-date-picker
+
+Changed to use new Iconicons v5 for left and right arrows.
+From:
+ios-arrow-forward
+ios-arrow-back
+To:
+chevron-forward-outline
+chevron-back-outline
+
+Below is the original readme.
 
 
 ## How to use ###

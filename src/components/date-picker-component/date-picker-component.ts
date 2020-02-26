@@ -16,10 +16,10 @@ const HTML_CODE = `
 
         <span slot="end" *ngIf="hasPrevious() || hasNext()">
             <ion-button  fill="clear" [disabled]="!hasPrevious()" (click)="previous()">
-                <ion-icon slot="icon-only" name="ios-arrow-back"></ion-icon>
+                <ion-icon slot="icon-only" name="chevron-back-outline"></ion-icon>
             </ion-button>
             <ion-button fill="clear" [disabled]="!hasNext()" (click)="next()">
-                <ion-icon slot="icon-only" name="ios-arrow-forward"></ion-icon>
+                <ion-icon slot="icon-only" name="chevron-forward-outline"></ion-icon>
             </ion-button>
         </span>
     </ion-item>
@@ -59,14 +59,14 @@ const HTML_CODE = `
             <ion-col size="10" text-center>
                     <div *ngIf="hasPreviousYears() || hasNextYears()">
                         <ion-button fill="clear" [disabled]="!hasPreviousYears()"  (click)="showPreviousYears()">
-                            <ion-icon slot="icon-only" name="ios-arrow-back"></ion-icon>
+                            <ion-icon slot="icon-only" name="chevron-back-outline"></ion-icon>
                         </ion-button>
                         <ion-button fill="clear" [disabled]="true" class="year-range">
                             {{startYear}} to {{endYear}}
                         </ion-button>
                     
                         <ion-button fill="clear" [disabled]="!hasNextYears()" (click)="showNextYears()">
-                            <ion-icon slot="icon-only" name="ios-arrow-forward"></ion-icon>
+                            <ion-icon slot="icon-only" name="chevron-forward-outline"></ion-icon>
                         </ion-button>
                     </div>
             </ion-col>
