@@ -1,7 +1,7 @@
 {
-    "name": "ionic4-date-picker",
-    "version": "0.1.0",
-    "description": "ionic4 date picker module",
+    "name": "ionic5-date-picker",
+    "version": "0.2.0",
+    "description": "ionic5 date picker module",
     "main": "./dist/index.js",
     "typings": "./dist/index.d.ts",
     "files": [
@@ -14,10 +14,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/write2sv/ionic4-date-picker"
+        "url": "https://github.com/guerrillatiger/ionic5-date-picker"
     },
     "keywords": [
-        "ionic4",
+        "ionic5",
         "datepicker",
         "calendar",
         "component"
