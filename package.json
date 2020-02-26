@@ -5,7 +5,9 @@
     "main": "./dist/index.js",
     "typings": "./dist/index.d.ts",
     "files": [
-        "dist"
+        "dist",
+        "src",
+        "*"
     ],
     "scripts": {
         "ngc": "ngc",
@@ -41,6 +43,7 @@
     },
     "dependencies": {
         "dayspan": "^0.12.4",
-        "moment": "^2.22.2"
+        "moment": "^2.22.2",
+        "ngc": "^1.0.0"
     }
 }
